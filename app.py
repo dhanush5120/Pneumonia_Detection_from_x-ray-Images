@@ -38,7 +38,7 @@ def predict():
 	processed_image = preprocess_image(image, target_size=(224,224))
 
 	prediction = model.predict(processed_image).tolist()
-
+	
 	response = {
 		'prediction':{
 			'Normal': prediction[0][0],
