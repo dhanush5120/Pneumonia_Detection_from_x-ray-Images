@@ -26,6 +26,9 @@ $ pip install virtualenv
  ## Deployment
  - Save the traied model
  - Run app.py file in virtualenv
+ ```
+ (app_env)$ python3 app.py
+ ```
  - Naviagate to browser and enter this url http://127.0.0.1:5000/static/predict.html
  - Upload the x-ray image and hit predict button
  
