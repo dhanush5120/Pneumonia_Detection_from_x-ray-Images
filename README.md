@@ -17,10 +17,10 @@ $ pip install virtualenv
  ```
  Install the following libraries to run the app
  ```
- $ pip install flask
- $ pip install Pillow
- $ pip install pybase64
- $ pip install keras
+ (app_env)$ pip install flask
+ (app_env)$ pip install Pillow
+ (app_env)$ pip install pybase64
+ (app_env)$ pip install keras
  ```
  
  ## Deployment
